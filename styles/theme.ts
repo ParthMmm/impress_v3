@@ -9,10 +9,6 @@ const myTheme: DefaultTheme = {
     secondary: '#A29BFE',
   },
 
-  body: {
-    font-family: 'Mabry Pro',
-    
-  }
+  fontFamily: 'MabryPro',
 };
-
 export { myTheme };

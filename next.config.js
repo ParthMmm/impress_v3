@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+
+const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['i.redd.it', 'impress-images.s3.amazonaws.com'],
+    domains: ['i.imgur.com', 'impress-images.s3.amazonaws.com'],
+  },
+  i18n: {
+    locales: ['en'],
+    defaultLocale: 'en',
   },
 };
+
+module.exports = nextConfig;
