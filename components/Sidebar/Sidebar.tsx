@@ -47,7 +47,7 @@ const InnerContainer = styled.div`
 function Sidebar({}: Props) {
   return (
     <SidebarContainer>
-      <InnerContainer>yoyoyoyo</InnerContainer>
+      <InnerContainer>hi user</InnerContainer>
     </SidebarContainer>
   );
 }

@@ -31,8 +31,8 @@ function Navbar({}: Props) {
   return (
     <NavContainer>
       <ActionsContainer>
-        <RiUser4Line size={24} />
-        <RiSearchLine size={24} />
+        <RiUser4Line size={24} aria-label='user button' />
+        <RiSearchLine size={24} aria-label='search button' />
       </ActionsContainer>
     </NavContainer>
   );

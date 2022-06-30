@@ -47,7 +47,7 @@ const ImageBlock = styled.div`
 
 const AuthButton = styled.button`
   border: 2px solid black;
-  border-radius: 160px;
+  border-radius: 120px;
   text-align: center;
   font-size: 1rem;
   background-color: white;
@@ -83,12 +83,14 @@ const AuthButton = styled.button`
 
 const InteractButtons = styled(AuthButton)`
   margin-right: 16px;
+  /* margin-top: 4px; */
 `;
 
 const BottomContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: 4px;
 `;
 
 const InteractContainer = styled.div`

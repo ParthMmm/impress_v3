@@ -35,7 +35,6 @@ const Title = styled.h1`
   color: white;
 
   -webkit-text-stroke: 1px black;
-
   text-shadow: 4px 4px 0px #000000;
   line-height: 64px;
   letter-spacing: -5px;
@@ -70,7 +69,7 @@ const HeaderBar = styled.div`
 
 const AuthButton = styled.button`
   border: 2px solid black;
-  border-radius: 160px;
+  border-radius: 120px;
   text-align: center;
   font-size: 1rem;
   background-color: white;

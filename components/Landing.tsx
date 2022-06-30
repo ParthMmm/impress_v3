@@ -37,7 +37,9 @@ const EmptyBox = styled.div`
 const PostsContainer = styled.div`
   overflow-y: scroll;
   z-index: 1;
-  margin-top: 60px;
+  margin-top: 120px;
+
+  margin-bottom: 60px;
 `;
 
 const SidebarContainer = styled.div``;
